@@ -1,0 +1,46 @@
+body{
+    background-image: url("img1.jpg");
+    background-image:no-repeat;
+    background-size: cover;
+}
+#boxes {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  div {
+    float: left;
+    height: 470px;
+    width: 40%;
+    padding: 0 10px;
+  }
+  img{
+    margin-left:30px;
+    width:570px;
+    height:250px;
+    border:  2px solid black;
+  }
+  .social{
+    border:  5px solid rgb(7, 121, 173);
+    height: 550px;
+    background-color:white;
+    margin-left:30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .solution{
+    border:  5px solid rgb(7,121,173);
+    height: 550px;
+    margin-left:50px;
+    background-color:white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  h1{
+    text-align: center;
+    font-style: italic;
+    color:rgb(7,121,173)
+  }
+  h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+  }
+  
